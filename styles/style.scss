@@ -1,0 +1,73 @@
+@import 'sass/cores.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: $backGroundColor;
+    
+    .concord-img-gradient{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/painel.jpg);
+        background-size: cover;
+        width: 100;
+        height: 100vh;
+
+        .our-story-header-wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            // width: 80%;            
+            .logo{
+                width: 70%;
+
+                img{
+                    width: 150px;
+                }
+            }
+
+            .language{
+                margin-right: 30px;
+                .ui-select{
+                    padding: 10px;
+                    background-color: transparent;
+                    color: $textColor;
+                    font-weight: 500;
+                    font-size: 0.8rem;
+                    border-color: $textColor;
+                    border-radius: 2px;
+                    font-size: 15px;
+
+                    option:active{
+                        background-color: gray;
+                        font-size: 150px;
+                    }
+
+                }
+                .ui-select:focus{
+                    outline: none;
+                }
+                
+            }
+
+            a{
+                background-color: red;
+                border: 1px solid transparent;
+                padding: 6px 15px;
+                border-radius: 3px;
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 12pt;
+                font-weight: 500;
+            }
+        }
+        
+    }
+}

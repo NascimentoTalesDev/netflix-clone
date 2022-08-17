@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: gray;
+}
+
+body .concord-img-gradient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../images/painel.jpg);
+  background-size: cover;
+  width: 100;
+  height: 100vh;
+}
+
+body .concord-img-gradient .our-story-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+}
+
+body .concord-img-gradient .our-story-header-wrapper .logo {
+  width: 70%;
+}
+
+body .concord-img-gradient .our-story-header-wrapper .logo img {
+  width: 150px;
+}
+
+body .concord-img-gradient .our-story-header-wrapper .language {
+  margin-right: 30px;
+}
+
+body .concord-img-gradient .our-story-header-wrapper .language .ui-select {
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border-color: #fff;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+body .concord-img-gradient .our-story-header-wrapper .language .ui-select option:active {
+  background-color: gray;
+  font-size: 150px;
+}
+
+body .concord-img-gradient .our-story-header-wrapper .language .ui-select:focus {
+  outline: none;
+}
+
+body .concord-img-gradient .our-story-header-wrapper a {
+  background-color: red;
+  border: 1px solid transparent;
+  padding: 6px 15px;
+  border-radius: 3px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 12pt;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
