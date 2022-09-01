@@ -1,0 +1,152 @@
+@media (max-width: 1300px) {
+  html {
+    font-size: 50%;
+  }
+  .section-1 .our-story-header-wrapper {
+    width: 95%;
+    margin: 8px auto;
+  }
+  .section-1 .our-story-card-text h1 {
+    font-size: 8rem;
+    margin-bottom: 4rem;
+  }
+  .section-1 .our-story-card-text h2 {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+  .section-1 .our-story-card-text h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+  .section-1 .our-story-header-wrapper {
+    width: 95%;
+    margin: 8px auto;
+  }
+  .section-1 .our-story-card-text .logar {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-1 .our-story-card-text .logar input {
+    padding: 3rem 0;
+    font-size: 3rem;
+  }
+  .section-1 .our-story-card-text .logar button {
+    padding: 3rem 1rem;
+    width: 50%;
+    margin: 2rem auto;
+    font-size: 3rem;
+  }
+  .section-1 .our-story-card-text h1 {
+    font-size: 10rem;
+    margin-bottom: 4rem;
+  }
+  .section-1 .our-story-card-text h2 {
+    font-size: 6rem;
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+  .section-1 .our-story-card-text h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .section-2 {
+    width: 100%;
+  }
+  .section-2 .wrapper-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 .wrapper-container .dir, .section-2 .wrapper-container .esq {
+    text-align: center;
+    width: 80%;
+  }
+  .section-3 .wrapper-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-3 .wrapper-container .dir, .section-3 .wrapper-container .esq {
+    text-align: center;
+    width: 80%;
+  }
+  .section-4 .wrapper-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-4 .wrapper-container .dir, .section-4 .wrapper-container .esq {
+    text-align: center;
+    width: 80%;
+  }
+  .section-5 .wrapper-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-5 .wrapper-container .dir, .section-5 .wrapper-container .esq {
+    text-align: center;
+    width: 80%;
+  }
+  .section-6 .our-story-card-text .logar {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-6 .our-story-card-text .logar input {
+    padding: 3rem 0;
+    font-size: 3rem;
+  }
+  .section-6 .our-story-card-text .logar button {
+    padding: 3rem 1rem;
+    width: 50%;
+    margin: 2rem auto;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 35%;
+  }
+  .wrapper-container .esq {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+  .section-1 .our-story-header-wrapper {
+    width: 95%;
+    margin: 8px auto;
+  }
+  .section-1 .our-story-card-text .logar {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-1 .our-story-card-text .logar input {
+    padding: 3rem 0;
+    font-size: 3rem;
+  }
+  .section-1 .our-story-card-text .logar button {
+    padding: 3rem 1rem;
+    width: 50%;
+    margin: 2rem auto;
+    font-size: 3rem;
+  }
+  .section-1 .our-story-card-text h1 {
+    font-size: 7rem;
+    margin-bottom: 4rem;
+  }
+  .section-1 .our-story-card-text h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+  .section-1 .our-story-card-text h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
