@@ -1,0 +1,109 @@
+@import "../collors/collors.scss";
+.section-6{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    margin-top: 1.5rem;
+    .faq{
+        width: 80%;
+        margin: auto;
+        h2{
+            text-align: center;
+            font-size: 10rem;
+            color: $textColor;
+            padding: 10rem ;    
+        }
+        .faq-list{
+
+            .faq-list-item{
+                position: relative;
+                button{
+                    width: 100%;
+                    text-align: left;
+                    padding: 20px;
+                    background-color: $buttonFaq;
+                    border: none;
+                    font-size: 5rem;
+                    color: $textColor;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 5px;
+                }
+                .open{
+                    position: absolute;
+                    right: 0;
+                    margin-right: 20px;
+                    .one, .two{
+                        width: 30px;
+                        height: 3px;
+                    }
+                    .one{
+                        background-color: aliceblue;
+                    }
+                    .two{
+                        background-color: aliceblue;
+                        transform: rotate(90deg);
+                        margin-top: -3px;
+                    }
+                }
+            }
+            .faq-answer{
+                color: $textColor;
+                font-size: 3rem;
+                background-color: $buttonFaq;
+                margin-top: 1px;
+                padding: 30px;
+            }
+            .closed{
+                display: none;
+            }
+        }
+    }
+    .our-story-card-text{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $textColor;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+
+        h3{
+            margin-top: 5rem;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            
+        }
+        .logar{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5rem;
+            margin-bottom: 10rem ;
+            input{
+                padding: 3rem 0;
+                width: 65rem;
+                border: none;
+                font-size: 5rem;
+                margin-right: 1px;
+                text-indent: 1rem;
+            }
+            input:focus{
+                outline: none;
+            }
+            button{
+                padding: 16px 30px;
+                background-color: $buttonEnter;
+                border: none;
+                font-size: 5rem;
+                cursor: pointer;
+                color: $textColor;
+            }
+            button:active{
+                transform: scale(1.03);
+                // border: 1px solid black;
+            };
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.section-6 {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  margin-top: 1.5rem;
+}
+.section-6 .faq {
+  width: 80%;
+  margin: auto;
+}
+.section-6 .faq h2 {
+  text-align: center;
+  font-size: 10rem;
+  color: #fff;
+  padding: 10rem;
+}
+.section-6 .faq .faq-list .faq-list-item {
+  position: relative;
+}
+.section-6 .faq .faq-list .faq-list-item button {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  background-color: #303030;
+  border: none;
+  font-size: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.section-6 .faq .faq-list .faq-list-item .open {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+.section-6 .faq .faq-list .faq-list-item .open .one, .section-6 .faq .faq-list .faq-list-item .open .two {
+  width: 30px;
+  height: 3px;
+}
+.section-6 .faq .faq-list .faq-list-item .open .one {
+  background-color: aliceblue;
+}
+.section-6 .faq .faq-list .faq-list-item .open .two {
+  background-color: aliceblue;
+  transform: rotate(90deg);
+  margin-top: -3px;
+}
+.section-6 .faq .faq-list .faq-answer {
+  color: #fff;
+  font-size: 3rem;
+  background-color: #303030;
+  margin-top: 1px;
+  padding: 30px;
+}
+.section-6 .faq .faq-list .closed {
+  display: none;
+}
+.section-6 .our-story-card-text {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.section-6 .our-story-card-text h3 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.section-6 .our-story-card-text .logar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.section-6 .our-story-card-text .logar input {
+  padding: 3rem 0;
+  width: 65rem;
+  border: none;
+  font-size: 5rem;
+  margin-right: 1px;
+  text-indent: 1rem;
+}
+.section-6 .our-story-card-text .logar input:focus {
+  outline: none;
+}
+.section-6 .our-story-card-text .logar button {
+  padding: 16px 30px;
+  background-color: #eb0000;
+  border: none;
+  font-size: 5rem;
+  cursor: pointer;
+  color: #fff;
+}
+.section-6 .our-story-card-text .logar button:active {
+  transform: scale(1.03);
+}/*# sourceMappingURL=section6.css.map */
