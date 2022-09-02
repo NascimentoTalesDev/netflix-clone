@@ -15,8 +15,9 @@ html{
 }
 body{
     background-color: $backGroundColor;
-
+    width: 100%;
     .container{
-        
+        width: 100%;
+        height: 100%;
     }
 }    

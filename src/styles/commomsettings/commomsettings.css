@@ -15,4 +15,9 @@ html {
 
 body {
   background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+}
+body .container {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=commomsettings.css.map */

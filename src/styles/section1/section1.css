@@ -13,9 +13,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 8px;
+  margin: 8px auto;
   z-index: 1;
-  width: 100%;
+  width: 95%;
 }
 .section-1 .our-story-header-wrapper .logo {
   width: 75%;
