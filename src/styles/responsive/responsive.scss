@@ -285,3 +285,145 @@
         }
     }
 }
+@media (max-width: 800px){
+
+    .section-1{
+        .our-story-card-text{
+            h1{
+                font-size: 6rem;
+            }
+            h2{
+                font-size: 3rem;
+                width: 90%;
+            }
+            .logar{
+                flex-direction: column;
+                input{
+                    width: 50rem;
+                }
+                button{
+                    margin: auto;
+                    width: 25rem;
+                    margin-top: 1rem;
+                }
+            }
+        }        
+    }
+    .section-2, .section-3, .section-4, .section-5{
+        .wrapper-container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .esq{ 
+                width: 80%;
+                margin: 5rem auto;
+                text-align: center;
+                h1{
+                    font-size: 5rem;
+                    margin-bottom: 3rem;
+                }
+                h2{
+                    width: 80%;
+                    margin: auto;
+                    font-size: 2.5rem;
+                }
+            }
+            .dir{
+                width: 80%;
+                margin-top: -25px;
+                margin-bottom: -50px;
+            }
+        }
+    }
+    .section-3, .section-5{
+        .wrapper-container{
+            flex-direction: column-reverse;
+            .esq{ 
+                margin-bottom: -5rem;
+                h1{
+                    font-size: 5rem;
+                    margin-bottom: 3rem;
+                }
+                h2{
+                    width: 80%;
+                    margin: auto;
+                    font-size: 2.5rem;
+                }
+            }
+            .dir{ 
+                margin-top: 6rem;
+                h1{
+                    font-size: 4rem;
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .section-4{
+        .wrapper-container{
+            .dir{ 
+                margin-left: 0;
+                
+            }
+        }
+    }
+    .section-5{
+        .wrapper-container{
+            .esq{ 
+                margin-left: 0;
+                
+            }
+        }
+    }
+    .section-6{
+        .faq{
+            width: 95%;
+        }
+        .our-story-card-text{
+            .logar{
+                flex-direction: column;
+                input{
+                    width: 50rem;
+                }
+                button{
+                    margin: auto;
+                    width: 25rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px){
+    html{
+        font-size: 55%;
+    }
+    .section-1{
+        .our-story-card-text{
+            .logar{
+                input{
+                    width: 45rem;
+                }
+            }
+        }        
+    }
+    .section-6{
+        .our-story-card-text{
+            .logar{
+                input{
+                    width: 45rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 450px){
+
+    html{
+        font-size: 45%;
+    }
+}

@@ -193,4 +193,110 @@
   .section-6 .our-story-card-text .logar button {
     font-size: 3rem;
   }
+}
+@media (max-width: 800px) {
+  .section-1 .our-story-card-text h1 {
+    font-size: 6rem;
+  }
+  .section-1 .our-story-card-text h2 {
+    font-size: 3rem;
+    width: 90%;
+  }
+  .section-1 .our-story-card-text .logar {
+    flex-direction: column;
+  }
+  .section-1 .our-story-card-text .logar input {
+    width: 50rem;
+  }
+  .section-1 .our-story-card-text .logar button {
+    margin: auto;
+    width: 25rem;
+    margin-top: 1rem;
+  }
+  .section-2 .wrapper-container, .section-3 .wrapper-container, .section-4 .wrapper-container, .section-5 .wrapper-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .section-2 .wrapper-container .esq, .section-3 .wrapper-container .esq, .section-4 .wrapper-container .esq, .section-5 .wrapper-container .esq {
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .section-2 .wrapper-container .esq h1, .section-3 .wrapper-container .esq h1, .section-4 .wrapper-container .esq h1, .section-5 .wrapper-container .esq h1 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  .section-2 .wrapper-container .esq h2, .section-3 .wrapper-container .esq h2, .section-4 .wrapper-container .esq h2, .section-5 .wrapper-container .esq h2 {
+    width: 80%;
+    margin: auto;
+    font-size: 2.5rem;
+  }
+  .section-2 .wrapper-container .dir, .section-3 .wrapper-container .dir, .section-4 .wrapper-container .dir, .section-5 .wrapper-container .dir {
+    width: 80%;
+    margin-top: -25px;
+    margin-bottom: -50px;
+  }
+  .section-3 .wrapper-container, .section-5 .wrapper-container {
+    flex-direction: column-reverse;
+  }
+  .section-3 .wrapper-container .esq, .section-5 .wrapper-container .esq {
+    margin-bottom: -5rem;
+  }
+  .section-3 .wrapper-container .esq h1, .section-5 .wrapper-container .esq h1 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  .section-3 .wrapper-container .esq h2, .section-5 .wrapper-container .esq h2 {
+    width: 80%;
+    margin: auto;
+    font-size: 2.5rem;
+  }
+  .section-3 .wrapper-container .dir, .section-5 .wrapper-container .dir {
+    margin-top: 6rem;
+  }
+  .section-3 .wrapper-container .dir h1, .section-5 .wrapper-container .dir h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .section-3 .wrapper-container .dir h2, .section-5 .wrapper-container .dir h2 {
+    text-align: center;
+  }
+  .section-4 .wrapper-container .dir {
+    margin-left: 0;
+  }
+  .section-5 .wrapper-container .esq {
+    margin-left: 0;
+  }
+  .section-6 .faq {
+    width: 95%;
+  }
+  .section-6 .our-story-card-text .logar {
+    flex-direction: column;
+  }
+  .section-6 .our-story-card-text .logar input {
+    width: 50rem;
+  }
+  .section-6 .our-story-card-text .logar button {
+    margin: auto;
+    width: 25rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 55%;
+  }
+  .section-1 .our-story-card-text .logar input {
+    width: 45rem;
+  }
+  .section-6 .our-story-card-text .logar input {
+    width: 45rem;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
 }/*# sourceMappingURL=responsive.css.map */
