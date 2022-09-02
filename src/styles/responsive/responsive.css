@@ -1,10 +1,18 @@
 @media (max-width: 1300px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
   .section-1 .our-story-header-wrapper {
     width: 95%;
     margin: 8px auto;
+  }
+  .section-1 .our-story-card-text .logar input {
+    padding: 2rem 0;
+    font-size: 2rem;
+  }
+  .section-1 .our-story-card-text .logar button {
+    padding: 3rem 1rem;
+    font-size: 3rem;
   }
   .section-1 .our-story-card-text h1 {
     font-size: 8rem;
