@@ -336,6 +336,13 @@
             }
         }
     }
+    .section-2{
+        .wrapper-container{
+            .dir{ 
+                margin-left: 3rem;
+            }
+        }
+    }
     .section-3, .section-5{
         .wrapper-container{
             flex-direction: column-reverse;
@@ -374,7 +381,7 @@
     .section-5{
         .wrapper-container{
             .esq{ 
-                margin-left: 0;
+                margin-left: 2rem;
                 
             }
         }
@@ -426,4 +433,26 @@
     html{
         font-size: 45%;
     }
+    .section-1{
+        height: 75vh; 
+        .our-story-header-wrapper::after{
+            height: 75vh;
+        }      
+    }
+}
+@media (max-width: 380px){
+
+    html{
+        font-size: 40%;
+    }
+    .section-1{
+        .our-story-card-text{
+            .logar{
+                button{
+                    font-size: 2rem;
+                }
+            }
+        }        
+    }
+    
 }

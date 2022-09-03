@@ -238,6 +238,9 @@
     margin-top: -25px;
     margin-bottom: -50px;
   }
+  .section-2 .wrapper-container .dir {
+    margin-left: 3rem;
+  }
   .section-3 .wrapper-container, .section-5 .wrapper-container {
     flex-direction: column-reverse;
   }
@@ -267,7 +270,7 @@
     margin-left: 0;
   }
   .section-5 .wrapper-container .esq {
-    margin-left: 0;
+    margin-left: 2rem;
   }
   .section-6 .faq {
     width: 95%;
@@ -298,5 +301,19 @@
 @media (max-width: 450px) {
   html {
     font-size: 45%;
+  }
+  .section-1 {
+    height: 75vh;
+  }
+  .section-1 .our-story-header-wrapper::after {
+    height: 75vh;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 40%;
+  }
+  .section-1 .our-story-card-text .logar button {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=responsive.css.map */
