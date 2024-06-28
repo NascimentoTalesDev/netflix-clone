@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
+
 * ul {
   text-decoration: none;
   list-style: none;
@@ -17,7 +19,9 @@ body {
   background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
 }
+
 body .container {
   width: 100%;
   height: 100%;
-}/*# sourceMappingURL=commomsettings.css.map */
+}
+/*# sourceMappingURL=commomsettings.css.map */

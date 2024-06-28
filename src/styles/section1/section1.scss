@@ -1,4 +1,4 @@
-@import "../collors/collors.scss";
+@import "../colors/colors.scss";
 
 .section-1{
     display: flex;
@@ -36,13 +36,12 @@
                 border-color: $textColor;
                 border-radius: 2px;
                 font-size: 2.5rem;
-                option:active{
-                    background-color: gray;
-                    font-size: 150px;
-                }
+                
             }
             .ui-select:focus{
                 outline: none;
+                background-color: white;
+                color: black;
             }
         }
         a{

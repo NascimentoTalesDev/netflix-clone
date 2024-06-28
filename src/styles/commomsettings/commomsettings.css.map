@@ -1,1 +1,10 @@
-{"version":3,"sources":["commomsettings.scss","commomsettings.css","../collors/collors.scss"],"names":[],"mappings":"AAEA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kCAAA;ACDJ;ADEI;EACI,qBAAA;EACA,gBAAA;ACAR;;ADGA;EACI,gBAAA;ACAJ;;ADEA;EACI,qCEhBc;EFiBd,WAAA;ACCJ;ADAI;EACI,WAAA;EACA,YAAA;ACER","file":"commomsettings.css"}
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,qBAAqB;CAKrC;;AATD,AAKI,CALH,CAKG,EAAE,CAAA;EACE,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;CACnB;;AAEL,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;CACnB;;AACD,AAAA,IAAI,CAAA;EACA,gBAAgB,EChBF,mBAAmB;EDiBjC,KAAK,EAAE,IAAI;CAKd;;AAPD,AAGI,IAHA,CAGA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "commomsettings.scss",
+        "../colors/colors.scss"
+    ],
+    "names": [],
+    "file": "commomsettings.css"
+}

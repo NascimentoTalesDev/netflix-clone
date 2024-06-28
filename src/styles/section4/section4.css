@@ -1,33 +1,45 @@
 .section-4 {
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   margin-top: 1.5rem;
   position: relative;
   z-index: -1;
   padding-bottom: 10rem;
 }
+
 .section-4 .wrapper-container {
   width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
   z-index: 1;
 }
+
 .section-4 .wrapper-container .esq {
   width: 50%;
   z-index: 1;
   margin-top: 60px;
   margin-left: 40px;
 }
+
 .section-4 .wrapper-container .esq h1 {
   font-size: 8rem;
   margin-bottom: 20px;
 }
+
 .section-4 .wrapper-container .esq h2 {
   font-size: 3rem;
 }
+
 .section-4 .wrapper-container .dir {
   width: 50%;
   z-index: 1;
@@ -35,12 +47,15 @@
   margin-left: 45px;
   margin-bottom: 70px;
 }
+
 .section-4 .wrapper-container .dir .tv {
   position: relative;
 }
+
 .section-4 .wrapper-container .dir .tv img {
   width: 100%;
 }
+
 .section-4 .wrapper-container .dir .tv #videoTv {
   position: absolute;
   top: 0;
@@ -49,11 +64,13 @@
   margin-left: 19%;
   width: 62%;
 }
+
 .section-4 .wrapper-container .dir .tv .img {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .section-4 .wrapper-container .dir .tv #videoDevice {
   position: absolute;
   top: 0;
@@ -62,6 +79,7 @@
   margin-top: 7%;
   margin-left: 17%;
 }
+
 .section-4 .wrapper-container:after {
   content: "";
   position: absolute;
@@ -70,5 +88,7 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.6)), color-stop(60%, transparent), to(rgba(0, 0, 0, 0.6)));
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0, transparent 60%, rgba(0, 0, 0, 0.6));
-}/*# sourceMappingURL=section4.css.map */
+}
+/*# sourceMappingURL=section4.css.map */

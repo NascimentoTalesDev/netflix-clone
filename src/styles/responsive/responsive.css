@@ -96,6 +96,7 @@
     font-size: 3rem;
   }
 }
+
 @media (max-width: 1000px) {
   .section-1 .our-story-header-wrapper .language .ui-select {
     font-size: 2rem;
@@ -194,6 +195,7 @@
     font-size: 3rem;
   }
 }
+
 @media (max-width: 800px) {
   .section-1 .our-story-card-text h1 {
     font-size: 6rem;
@@ -203,7 +205,10 @@
     width: 90%;
   }
   .section-1 .our-story-card-text .logar {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section-1 .our-story-card-text .logar input {
     width: 50rem;
@@ -214,9 +219,16 @@
     margin-top: 1rem;
   }
   .section-2 .wrapper-container, .section-3 .wrapper-container, .section-4 .wrapper-container, .section-5 .wrapper-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
   }
   .section-2 .wrapper-container .esq, .section-3 .wrapper-container .esq, .section-4 .wrapper-container .esq, .section-5 .wrapper-container .esq {
@@ -242,7 +254,10 @@
     margin-left: 3rem;
   }
   .section-3 .wrapper-container, .section-5 .wrapper-container {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .section-3 .wrapper-container .esq, .section-5 .wrapper-container .esq {
     margin-bottom: -5rem;
@@ -276,7 +291,10 @@
     width: 95%;
   }
   .section-6 .our-story-card-text .logar {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section-6 .our-story-card-text .logar input {
     width: 50rem;
@@ -287,6 +305,7 @@
     margin-top: 1rem;
   }
 }
+
 @media (max-width: 550px) {
   html {
     font-size: 55%;
@@ -298,6 +317,7 @@
     width: 45rem;
   }
 }
+
 @media (max-width: 450px) {
   html {
     font-size: 45%;
@@ -309,6 +329,7 @@
     height: 75vh;
   }
 }
+
 @media (max-width: 380px) {
   html {
     font-size: 40%;
@@ -316,4 +337,5 @@
   .section-1 .our-story-card-text .logar button {
     font-size: 2rem;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}
+/*# sourceMappingURL=responsive.css.map */
